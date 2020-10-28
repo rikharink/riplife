@@ -1,0 +1,10 @@
+{% layout "./templates/baseof.liquid" %}
+{% block content %}
+    <ul>
+        {%- for team in teams %}
+            <li>
+                <a href="/{{ team.slug }}">{{ team.name }}</a>
+            </li>
+        {%- endfor %}
+    </ul>
+{% endblock %}

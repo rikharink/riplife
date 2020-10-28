@@ -1,0 +1,20 @@
+{% layout "./templates/baseof.liquid" %}
+{% block styles }
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
+{% endblock % } 
+{% block content %}
+    <div class="rain front-row"></div>
+    <div class="rain back-row"></div>
+    <img class="moon" src="{{ deserter.picture }}" alt="{{ deserter.name }}">
+    <h1>{{ deserter.message }}</h1>
+    <h2>{{ daysMessage | replace: '{name}', deserter.name | replace: '{days}', '<span id="days"></span>' | replace: '{team}', team }}</h2>
+{% endblock %}
+{% block scripts %}
+    <script>
+        makeItRain();
+        setDays(new Date("{{ deserter.date }}"));
+    </script>
+{% endblock %}

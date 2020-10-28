@@ -1,0 +1,9 @@
+{% layout "./templates/baseof.liquid" %} {% block content %}
+<ul>
+    {%- for deserter in team.deserters %}
+    <li>
+        <a href="{{ deserter.slug }}.html">{{ deserter.name }}</a>
+    </li>
+    {%- endfor%}
+</ul>
+{% endblock %}
