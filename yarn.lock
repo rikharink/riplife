@@ -86,7 +86,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-replace@npm:^2.3.4":
+"@rollup/plugin-replace@npm:2.3.4":
   version: 2.3.4
   resolution: "@rollup/plugin-replace@npm:2.3.4"
   dependencies:
@@ -98,7 +98,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-typescript@npm:^6.1.0":
+"@rollup/plugin-typescript@npm:6.1.0":
   version: 6.1.0
   resolution: "@rollup/plugin-typescript@npm:6.1.0"
   dependencies:
@@ -183,14 +183,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/figlet@npm:^1":
+"@types/figlet@npm:1.2.0":
   version: 1.2.0
   resolution: "@types/figlet@npm:1.2.0"
   checksum: 24a19da02d71e01be4360018e95b57c90d28375a47e0e33e810718724d8586250a076ce1c7fdc089562cb1319f6685db17e270721dd07a33a90fd03b38949c0d
   languageName: node
   linkType: hard
 
-"@types/fs-extra@npm:^9":
+"@types/fs-extra@npm:9.0.2":
   version: 9.0.2
   resolution: "@types/fs-extra@npm:9.0.2"
   dependencies:
@@ -206,7 +206,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/http-server@npm:^0":
+"@types/http-server@npm:0.10.0":
   version: 0.10.0
   resolution: "@types/http-server@npm:0.10.0"
   dependencies:
@@ -215,7 +215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/inquirer@npm:^7":
+"@types/inquirer@npm:7.3.1":
   version: 7.3.1
   resolution: "@types/inquirer@npm:7.3.1"
   dependencies:
@@ -241,7 +241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.14.5":
+"@types/node@npm:14.14.5":
   version: 14.14.5
   resolution: "@types/node@npm:14.14.5"
   checksum: 4916d5c46e604be9b76c69300efdf26538f74ad63a5df572a6b66b95238ddbed3c2bcd5a9748c6ec2ef1bf529d84b3f3a53a0eed54d1f46eaa29471cbb7b1406
@@ -293,35 +293,35 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@viplife/riplife@workspace:."
   dependencies:
-    "@rollup/plugin-replace": ^2.3.4
-    "@rollup/plugin-typescript": ^6.1.0
-    "@types/figlet": ^1
-    "@types/fs-extra": ^9
-    "@types/http-server": ^0
-    "@types/inquirer": ^7
-    "@types/node": ^14.14.5
-    "@yarnpkg/pnpify": ^2.3.3
-    commander: ^6.2.0
-    cross-env: ^7.0.2
-    eslint: ^7.12.1
-    figlet: ^1.5.0
-    fs-extra: ^9.0.1
-    fuse.js: ^6.4.2
-    http-server: ^0.12.3
-    inquirer: ^7.3.3
-    inquirer-autocomplete-prompt: ^1.2.0
-    inquirer-datepicker-prompt: ^0.4.2
-    liquidjs: ^9.16.1
-    prettier: ^2.1.2
-    rollup: ^2.32.1
-    rollup-plugin-commonjs: ^10.1.0
-    rollup-plugin-node-resolve: ^5.2.0
-    rollup-plugin-terser: ^7.0.2
-    slugify: ^1.4.5
-    terser: ^5.3.8
-    ts-node: ^9.0.0
-    tslib: ^2.0.3
-    typescript: ^4.0.5
+    "@rollup/plugin-replace": 2.3.4
+    "@rollup/plugin-typescript": 6.1.0
+    "@types/figlet": 1.2.0
+    "@types/fs-extra": 9.0.2
+    "@types/http-server": 0.10.0
+    "@types/inquirer": 7.3.1
+    "@types/node": 14.14.5
+    "@yarnpkg/pnpify": 2.3.3
+    commander: 6.2.0
+    cross-env: 7.0.2
+    eslint: 7.12.1
+    figlet: 1.5.0
+    fs-extra: 9.0.1
+    fuse.js: 6.4.2
+    http-server: 0.12.3
+    inquirer: 7.3.3
+    inquirer-autocomplete-prompt: 1.2.0
+    inquirer-datepicker-prompt: 0.4.2
+    liquidjs: 9.16.1
+    prettier: 2.1.2
+    rollup: 2.32.1
+    rollup-plugin-commonjs: 10.1.0
+    rollup-plugin-node-resolve: 5.2.0
+    rollup-plugin-terser: 7.0.2
+    slugify: 1.4.5
+    terser: 5.3.8
+    ts-node: 9.0.0
+    tslib: 2.0.3
+    typescript: 4.0.5
   bin:
     riplife: bin/riplife.js
   languageName: unknown
@@ -418,7 +418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnpify@npm:^2.3.3":
+"@yarnpkg/pnpify@npm:2.3.3":
   version: 2.3.3
   resolution: "@yarnpkg/pnpify@npm:2.3.3"
   dependencies:
@@ -978,17 +978,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:6.2.0":
+  version: 6.2.0
+  resolution: "commander@npm:6.2.0"
+  checksum: c78501cd98e6ad66839004adc27940f5fc1a0102b306fbbc177965101d586cf6dd2e01bdffd64f99f2d4862101f24e602e3e4baa641b6f6a11c01ec5c900e412
+  languageName: node
+  linkType: hard
+
 "commander@npm:^2.20.0":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
   checksum: b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
-  languageName: node
-  linkType: hard
-
-"commander@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "commander@npm:6.2.0"
-  checksum: c78501cd98e6ad66839004adc27940f5fc1a0102b306fbbc177965101d586cf6dd2e01bdffd64f99f2d4862101f24e602e3e4baa641b6f6a11c01ec5c900e412
   languageName: node
   linkType: hard
 
@@ -1032,7 +1032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-env@npm:^7.0.2":
+"cross-env@npm:7.0.2":
   version: 7.0.2
   resolution: "cross-env@npm:7.0.2"
   dependencies:
@@ -1313,7 +1313,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.12.1":
+"eslint@npm:7.12.1":
   version: 7.12.1
   resolution: "eslint@npm:7.12.1"
   dependencies:
@@ -1521,7 +1521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figlet@npm:^1.5.0":
+"figlet@npm:1.5.0":
   version: 1.5.0
   resolution: "figlet@npm:1.5.0"
   checksum: 49839d8179dc0a7b6f105f13348e233df79cc2959088316560c1a85af0e99466b3e85d417de2a1f87d4dd4f42c7a734b01b8290aaf1c04c80f6fcffdf7c86bde
@@ -1614,7 +1614,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^9.0.1":
+"fs-extra@npm:9.0.1":
   version: 9.0.1
   resolution: "fs-extra@npm:9.0.1"
   dependencies:
@@ -1674,7 +1674,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"fuse.js@npm:^6.4.2":
+"fuse.js@npm:6.4.2":
   version: 6.4.2
   resolution: "fuse.js@npm:6.4.2"
   checksum: 5df7ef5e69128e8af1c4bfa7b4dd5828a3c36066a231754576277e2e02d47370d7628b6ccd5da30b3ef04cfc1d016d1c835fa6600f80ba699cede8cc9359e957
@@ -1882,7 +1882,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"http-server@npm:^0.12.3":
+"http-server@npm:0.12.3":
   version: 0.12.3
   resolution: "http-server@npm:0.12.3"
   dependencies:
@@ -1995,7 +1995,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"inquirer-autocomplete-prompt@npm:^1.2.0":
+"inquirer-autocomplete-prompt@npm:1.2.0":
   version: 1.2.0
   resolution: "inquirer-autocomplete-prompt@npm:1.2.0"
   dependencies:
@@ -2010,7 +2010,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"inquirer-datepicker-prompt@npm:^0.4.2":
+"inquirer-datepicker-prompt@npm:0.4.2":
   version: 0.4.2
   resolution: "inquirer-datepicker-prompt@npm:0.4.2"
   dependencies:
@@ -2022,6 +2022,27 @@ fsevents@~2.1.2:
     lodash: ^4.17.4
     util: ^0.10.3
   checksum: 7923ebdcffcf56256656ad798540331ebdf6d3dcb53680a51ad63bcfc968abeb5dd9dfc3e2161b6008b3829d6632b77474c7177f71ea1244292f40fb296bbf1a
+  languageName: node
+  linkType: hard
+
+"inquirer@npm:7.3.3":
+  version: 7.3.3
+  resolution: "inquirer@npm:7.3.3"
+  dependencies:
+    ansi-escapes: ^4.2.1
+    chalk: ^4.1.0
+    cli-cursor: ^3.1.0
+    cli-width: ^3.0.0
+    external-editor: ^3.0.3
+    figures: ^3.0.0
+    lodash: ^4.17.19
+    mute-stream: 0.0.8
+    run-async: ^2.4.0
+    rxjs: ^6.6.0
+    string-width: ^4.1.0
+    strip-ansi: ^6.0.0
+    through: ^2.3.6
+  checksum: fa0cbd9594a04e04c5c10a806e9a86b23986acdc7d07c75afdbc03412ff03b1d201efa83d9d64929afe99a901a093bfc9ae7ab13560f8e557cb98eddbe5bf37d
   languageName: node
   linkType: hard
 
@@ -2044,27 +2065,6 @@ fsevents@~2.1.2:
     strip-ansi: ^4.0.0
     through: ^2.3.6
   checksum: 34e59b7bb90aca57d71760c78d0ce4686bc90a2f1470cb4d6576ac9688694eff6459887afb360299ac5b56cec1504b3602078205294dc049c178de83ce3b39d4
-  languageName: node
-  linkType: hard
-
-"inquirer@npm:^7.3.3":
-  version: 7.3.3
-  resolution: "inquirer@npm:7.3.3"
-  dependencies:
-    ansi-escapes: ^4.2.1
-    chalk: ^4.1.0
-    cli-cursor: ^3.1.0
-    cli-width: ^3.0.0
-    external-editor: ^3.0.3
-    figures: ^3.0.0
-    lodash: ^4.17.19
-    mute-stream: 0.0.8
-    run-async: ^2.4.0
-    rxjs: ^6.6.0
-    string-width: ^4.1.0
-    strip-ansi: ^6.0.0
-    through: ^2.3.6
-  checksum: fa0cbd9594a04e04c5c10a806e9a86b23986acdc7d07c75afdbc03412ff03b1d201efa83d9d64929afe99a901a093bfc9ae7ab13560f8e557cb98eddbe5bf37d
   languageName: node
   linkType: hard
 
@@ -2342,7 +2342,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^9.16.1":
+"liquidjs@npm:9.16.1":
   version: 9.16.1
   resolution: "liquidjs@npm:9.16.1"
   bin:
@@ -2823,7 +2823,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.2":
+"prettier@npm:2.1.2":
   version: 2.1.2
   resolution: "prettier@npm:2.1.2"
   bin:
@@ -3102,7 +3102,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rollup-plugin-commonjs@npm:^10.1.0":
+"rollup-plugin-commonjs@npm:10.1.0":
   version: 10.1.0
   resolution: "rollup-plugin-commonjs@npm:10.1.0"
   dependencies:
@@ -3117,7 +3117,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rollup-plugin-node-resolve@npm:^5.2.0":
+"rollup-plugin-node-resolve@npm:5.2.0":
   version: 5.2.0
   resolution: "rollup-plugin-node-resolve@npm:5.2.0"
   dependencies:
@@ -3132,7 +3132,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rollup-plugin-terser@npm:^7.0.2":
+"rollup-plugin-terser@npm:7.0.2":
   version: 7.0.2
   resolution: "rollup-plugin-terser@npm:7.0.2"
   dependencies:
@@ -3155,7 +3155,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.32.1":
+"rollup@npm:2.32.1":
   version: 2.32.1
   resolution: "rollup@npm:2.32.1"
   dependencies:
@@ -3302,7 +3302,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"slugify@npm:^1.4.5":
+"slugify@npm:1.4.5":
   version: 1.4.5
   resolution: "slugify@npm:1.4.5"
   checksum: d402a9163144e6e5c904a3409383e0c780422fea93d32c023622cc8eaeab34e2ed0e28c69402704038ef771f6f4bb636619b142db6913165fa9f5328229773da
@@ -3576,7 +3576,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.0.0, terser@npm:^5.3.8":
+"terser@npm:5.3.8, terser@npm:^5.0.0":
   version: 5.3.8
   resolution: "terser@npm:5.3.8"
   dependencies:
@@ -3638,7 +3638,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^9.0.0":
+"ts-node@npm:9.0.0":
   version: 9.0.0
   resolution: "ts-node@npm:9.0.0"
   dependencies:
@@ -3658,17 +3658,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.0.3":
+  version: 2.0.3
+  resolution: "tslib@npm:2.0.3"
+  checksum: 447bfca5deaa157806c3f77eaba74d05dd0b38b014e47ce79d98b5c77ce7d91b00a687ba13ca1b5a74d35ca1098ac7a072c0a97fad06f0266612f2a03a6c8e8f
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.13.0, tslib@npm:^1.9.0":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: f44fe7f216946b17d3e3074df3746372703cf24e9127b4c045511456e8e4bf25515fb0a1bb3937676cc305651c5d4fcb6377b0588a4c6a957e748c4c28905d17
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "tslib@npm:2.0.3"
-  checksum: 447bfca5deaa157806c3f77eaba74d05dd0b38b014e47ce79d98b5c77ce7d91b00a687ba13ca1b5a74d35ca1098ac7a072c0a97fad06f0266612f2a03a6c8e8f
   languageName: node
   linkType: hard
 
@@ -3718,7 +3718,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^4.0.5:
+typescript@4.0.5:
   version: 4.0.5
   resolution: "typescript@npm:4.0.5"
   bin:
@@ -3728,7 +3728,7 @@ typescript@^4.0.5:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.5#builtin<compat/typescript>":
+"typescript@patch:typescript@4.0.5#builtin<compat/typescript>":
   version: 4.0.5
   resolution: "typescript@patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"
   bin:
