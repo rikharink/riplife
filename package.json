@@ -1,6 +1,6 @@
 {
     "name": "@viplife/riplife",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "author": "Rik Harink",
     "license": "MIT",
     "repository": "https://github.com/rikharink/riplife/",
@@ -37,12 +37,12 @@
         "rollup-plugin-commonjs": "^10.1.0",
         "rollup-plugin-node-resolve": "^5.2.0",
         "rollup-plugin-terser": "^7.0.2",
+        "terser": "^5.3.8",
         "ts-node": "^9.0.0",
         "tslib": "^2.0.3",
         "typescript": "^4.0.5"
     },
     "dependencies": {
-        "chalk": "^4.1.0",
         "commander": "^6.2.0",
         "figlet": "^1.5.0",
         "fs-extra": "^9.0.1",
@@ -51,7 +51,6 @@
         "inquirer-autocomplete-prompt": "^1.2.0",
         "inquirer-datepicker-prompt": "^0.4.2",
         "liquidjs": "^9.16.1",
-        "slugify": "^1.4.5",
-        "terser": "^5.3.8"
+        "slugify": "^1.4.5"
     }
 }

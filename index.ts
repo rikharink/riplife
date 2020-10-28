@@ -275,7 +275,7 @@ program.command('init').description('Setup the directory for usages with riplife
 program.command('build').description('Build the static pages').action(buildSite);
 program
     .command('add')
-    .description('Add a new teammember that left your team to the config')
+    .description('Add a new team member that left your team to the config')
     .action(async () => {
         await addDeserter();
     });
