@@ -1,15 +1,15 @@
 {
-    "name": "viplife.rip",
-    "version": "1.0.0",
-    "main": "index.js",
+    "name": "@viplife/riplife",
+    "version": "1.0.1",
     "author": "Rik Harink",
     "license": "MIT",
-    "repository": "https://github.com/rikharink/viplife.rip/",
+    "repository": "https://github.com/rikharink/riplife/",
     "files": [
         "bin/riplife.js"
     ],
-    "bin": {
-        "riplife": "bin/riplife.js"
+    "bin": "bin/riplife.js",
+    "publishConfig": {
+        "access": "public"
     },
     "scripts": {
         "riplife": "yarn build && node ./bin/riplife.js",
@@ -29,6 +29,7 @@
         "@types/inquirer": "^7",
         "@types/node": "^14.14.5",
         "@yarnpkg/pnpify": "^2.3.3",
+        "cross-env": "^7.0.2",
         "eslint": "^7.12.1",
         "http-server": "^0.12.3",
         "prettier": "^2.1.2",

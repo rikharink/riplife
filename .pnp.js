@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "viplife.rip",
+        "name": "@viplife/riplife",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["viplife.rip", ["workspace:."]]
+      ["@viplife/riplife", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -37,33 +37,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@rollup/plugin-replace", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.4"],
-            ["@rollup/plugin-typescript", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:6.1.0"],
+            ["@rollup/plugin-replace", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.4"],
+            ["@rollup/plugin-typescript", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:6.1.0"],
             ["@types/figlet", "npm:1.2.0"],
             ["@types/fs-extra", "npm:9.0.2"],
             ["@types/http-server", "npm:0.10.0"],
             ["@types/inquirer", "npm:7.3.1"],
             ["@types/node", "npm:14.14.5"],
-            ["@yarnpkg/pnpify", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.3"],
+            ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
             ["chalk", "npm:4.1.0"],
             ["commander", "npm:6.2.0"],
+            ["cross-env", "npm:7.0.2"],
             ["eslint", "npm:7.12.1"],
             ["figlet", "npm:1.5.0"],
             ["fs-extra", "npm:9.0.1"],
             ["fuse.js", "npm:6.4.2"],
             ["http-server", "npm:0.12.3"],
             ["inquirer", "npm:7.3.3"],
-            ["inquirer-autocomplete-prompt", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:1.2.0"],
+            ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
             ["liquidjs", "npm:9.16.1"],
             ["prettier", "npm:2.1.2"],
             ["rollup", "npm:2.32.1"],
-            ["rollup-plugin-commonjs", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:10.1.0"],
-            ["rollup-plugin-node-resolve", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:5.2.0"],
-            ["rollup-plugin-terser", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:7.0.2"],
+            ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
+            ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
+            ["rollup-plugin-terser", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2"],
             ["slugify", "npm:1.4.5"],
             ["terser", "npm:5.3.8"],
-            ["ts-node", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:9.0.0"],
+            ["ts-node", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0"],
             ["tslib", "npm:2.0.3"],
             ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
           ],
@@ -162,11 +163,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@rollup/plugin-replace", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.4", {
-          "packageLocation": "./.yarn/$$virtual/@rollup-plugin-replace-virtual-af5c030e61/0/cache/@rollup-plugin-replace-npm-2.3.4-2b255f0126-97ae11600a.zip/node_modules/@rollup/plugin-replace/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.4", {
+          "packageLocation": "./.yarn/$$virtual/@rollup-plugin-replace-virtual-87eadefd9c/0/cache/@rollup-plugin-replace-npm-2.3.4-2b255f0126-97ae11600a.zip/node_modules/@rollup/plugin-replace/",
           "packageDependencies": [
-            ["@rollup/plugin-replace", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.4"],
-            ["@rollup/pluginutils", "virtual:af5c030e61305c7d486fc5495f4bd4e2471581464fc7e48013da7a616a1b02a3dc9f3b79c3c8cdfd1d1c9f44cc186dbde250ba78e0d42134266dea6ab081b0ca#npm:3.1.0"],
+            ["@rollup/plugin-replace", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.4"],
+            ["@rollup/pluginutils", "virtual:87eadefd9cdd63fa54d638c5cdb7470a1308df12a0990540a1f64168cd7af480af77cde5e1ad205b6dbf20902fc7b781baa61e468793da7b0eb010f41db960e7#npm:3.1.0"],
             ["@types/rollup", null],
             ["magic-string", "npm:0.25.7"],
             ["rollup", "npm:2.32.1"]
@@ -179,11 +180,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@rollup/plugin-typescript", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:6.1.0", {
-          "packageLocation": "./.yarn/$$virtual/@rollup-plugin-typescript-virtual-2089d4de98/0/cache/@rollup-plugin-typescript-npm-6.1.0-0ff0497a3e-a90e81b60f.zip/node_modules/@rollup/plugin-typescript/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:6.1.0", {
+          "packageLocation": "./.yarn/$$virtual/@rollup-plugin-typescript-virtual-651aec3e73/0/cache/@rollup-plugin-typescript-npm-6.1.0-0ff0497a3e-a90e81b60f.zip/node_modules/@rollup/plugin-typescript/",
           "packageDependencies": [
-            ["@rollup/plugin-typescript", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:6.1.0"],
-            ["@rollup/pluginutils", "virtual:af5c030e61305c7d486fc5495f4bd4e2471581464fc7e48013da7a616a1b02a3dc9f3b79c3c8cdfd1d1c9f44cc186dbde250ba78e0d42134266dea6ab081b0ca#npm:3.1.0"],
+            ["@rollup/plugin-typescript", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:6.1.0"],
+            ["@rollup/pluginutils", "virtual:87eadefd9cdd63fa54d638c5cdb7470a1308df12a0990540a1f64168cd7af480af77cde5e1ad205b6dbf20902fc7b781baa61e468793da7b0eb010f41db960e7#npm:3.1.0"],
             ["@types/rollup", null],
             ["@types/tslib", null],
             ["@types/typescript", null],
@@ -204,10 +205,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@rollup/pluginutils", [
-        ["virtual:af5c030e61305c7d486fc5495f4bd4e2471581464fc7e48013da7a616a1b02a3dc9f3b79c3c8cdfd1d1c9f44cc186dbde250ba78e0d42134266dea6ab081b0ca#npm:3.1.0", {
-          "packageLocation": "./.yarn/$$virtual/@rollup-pluginutils-virtual-af6dc4a94f/0/cache/@rollup-pluginutils-npm-3.1.0-b44b222e7d-45da6411e0.zip/node_modules/@rollup/pluginutils/",
+        ["virtual:87eadefd9cdd63fa54d638c5cdb7470a1308df12a0990540a1f64168cd7af480af77cde5e1ad205b6dbf20902fc7b781baa61e468793da7b0eb010f41db960e7#npm:3.1.0", {
+          "packageLocation": "./.yarn/$$virtual/@rollup-pluginutils-virtual-07188a4458/0/cache/@rollup-pluginutils-npm-3.1.0-b44b222e7d-45da6411e0.zip/node_modules/@rollup/pluginutils/",
           "packageDependencies": [
-            ["@rollup/pluginutils", "virtual:af5c030e61305c7d486fc5495f4bd4e2471581464fc7e48013da7a616a1b02a3dc9f3b79c3c8cdfd1d1c9f44cc186dbde250ba78e0d42134266dea6ab081b0ca#npm:3.1.0"],
+            ["@rollup/pluginutils", "virtual:87eadefd9cdd63fa54d638c5cdb7470a1308df12a0990540a1f64168cd7af480af77cde5e1ad205b6dbf20902fc7b781baa61e468793da7b0eb010f41db960e7#npm:3.1.0"],
             ["@types/estree", "npm:0.0.39"],
             ["@types/rollup", null],
             ["estree-walker", "npm:1.0.1"],
@@ -411,6 +412,45 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@viplife/riplife", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["@viplife/riplife", "workspace:."],
+            ["@rollup/plugin-replace", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.4"],
+            ["@rollup/plugin-typescript", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:6.1.0"],
+            ["@types/figlet", "npm:1.2.0"],
+            ["@types/fs-extra", "npm:9.0.2"],
+            ["@types/http-server", "npm:0.10.0"],
+            ["@types/inquirer", "npm:7.3.1"],
+            ["@types/node", "npm:14.14.5"],
+            ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
+            ["chalk", "npm:4.1.0"],
+            ["commander", "npm:6.2.0"],
+            ["cross-env", "npm:7.0.2"],
+            ["eslint", "npm:7.12.1"],
+            ["figlet", "npm:1.5.0"],
+            ["fs-extra", "npm:9.0.1"],
+            ["fuse.js", "npm:6.4.2"],
+            ["http-server", "npm:0.12.3"],
+            ["inquirer", "npm:7.3.3"],
+            ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
+            ["inquirer-datepicker-prompt", "npm:0.4.2"],
+            ["liquidjs", "npm:9.16.1"],
+            ["prettier", "npm:2.1.2"],
+            ["rollup", "npm:2.32.1"],
+            ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
+            ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
+            ["rollup-plugin-terser", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2"],
+            ["slugify", "npm:1.4.5"],
+            ["terser", "npm:5.3.8"],
+            ["ts-node", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0"],
+            ["tslib", "npm:2.0.3"],
+            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
       ["@yarnpkg/core", [
         ["npm:2.3.1", {
           "packageLocation": "./.yarn/cache/@yarnpkg-core-npm-2.3.1-2d9d12b9ec-d2236acac2.zip/node_modules/@yarnpkg/core/",
@@ -509,10 +549,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@yarnpkg/pnpify", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.3", {
-          "packageLocation": "./.yarn/$$virtual/@yarnpkg-pnpify-virtual-4b060fbb3e/0/cache/@yarnpkg-pnpify-npm-2.3.3-d139ee88e8-80ccd1a560.zip/node_modules/@yarnpkg/pnpify/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3", {
+          "packageLocation": "./.yarn/$$virtual/@yarnpkg-pnpify-virtual-0bb8680f94/0/cache/@yarnpkg-pnpify-npm-2.3.3-d139ee88e8-80ccd1a560.zip/node_modules/@yarnpkg/pnpify/",
           "packageDependencies": [
-            ["@yarnpkg/pnpify", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.3"],
+            ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
             ["@types/eslint", null],
             ["@types/typescript", null],
             ["@yarnpkg/core", "npm:2.3.1"],
@@ -1212,6 +1252,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/corser-npm-2.0.1-4dbc602b14-5af366b3ea.zip/node_modules/corser/",
           "packageDependencies": [
             ["corser", "npm:2.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["cross-env", [
+        ["npm:7.0.2", {
+          "packageLocation": "./.yarn/cache/cross-env-npm-7.0.2-1e9c9fdbca-624d638db3.zip/node_modules/cross-env/",
+          "packageDependencies": [
+            ["cross-env", "npm:7.0.2"],
+            ["cross-spawn", "npm:7.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -2324,10 +2374,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["inquirer-autocomplete-prompt", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:1.2.0", {
-          "packageLocation": "./.yarn/$$virtual/inquirer-autocomplete-prompt-virtual-5fb17e028a/0/cache/inquirer-autocomplete-prompt-npm-1.2.0-ff9189b25c-34e37b0282.zip/node_modules/inquirer-autocomplete-prompt/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0", {
+          "packageLocation": "./.yarn/$$virtual/inquirer-autocomplete-prompt-virtual-ba5f3fecbc/0/cache/inquirer-autocomplete-prompt-npm-1.2.0-ff9189b25c-34e37b0282.zip/node_modules/inquirer-autocomplete-prompt/",
           "packageDependencies": [
-            ["inquirer-autocomplete-prompt", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:1.2.0"],
+            ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["@types/inquirer", "npm:7.3.1"],
             ["ansi-escapes", "npm:4.3.1"],
             ["chalk", "npm:4.1.0"],
@@ -3534,10 +3584,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["rollup-plugin-commonjs", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:10.1.0", {
-          "packageLocation": "./.yarn/$$virtual/rollup-plugin-commonjs-virtual-2b6b44b2f3/0/cache/rollup-plugin-commonjs-npm-10.1.0-6b5ee23ea9-853150cba5.zip/node_modules/rollup-plugin-commonjs/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0", {
+          "packageLocation": "./.yarn/$$virtual/rollup-plugin-commonjs-virtual-dfda29aa50/0/cache/rollup-plugin-commonjs-npm-10.1.0-6b5ee23ea9-853150cba5.zip/node_modules/rollup-plugin-commonjs/",
           "packageDependencies": [
-            ["rollup-plugin-commonjs", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:10.1.0"],
+            ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
             ["@types/rollup", null],
             ["estree-walker", "npm:0.6.1"],
             ["is-reference", "npm:1.2.1"],
@@ -3554,10 +3604,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["rollup-plugin-node-resolve", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:5.2.0", {
-          "packageLocation": "./.yarn/$$virtual/rollup-plugin-node-resolve-virtual-bdfeb9e721/0/cache/rollup-plugin-node-resolve-npm-5.2.0-6af239ea59-f20dd3e666.zip/node_modules/rollup-plugin-node-resolve/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0", {
+          "packageLocation": "./.yarn/$$virtual/rollup-plugin-node-resolve-virtual-d829cfccb6/0/cache/rollup-plugin-node-resolve-npm-5.2.0-6af239ea59-f20dd3e666.zip/node_modules/rollup-plugin-node-resolve/",
           "packageDependencies": [
-            ["rollup-plugin-node-resolve", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:5.2.0"],
+            ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
             ["@types/resolve", "npm:0.0.8"],
             ["@types/rollup", null],
             ["builtin-modules", "npm:3.1.0"],
@@ -3574,10 +3624,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["rollup-plugin-terser", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:7.0.2", {
-          "packageLocation": "./.yarn/$$virtual/rollup-plugin-terser-virtual-a50409ee02/0/cache/rollup-plugin-terser-npm-7.0.2-3f55469f5a-553cc21efc.zip/node_modules/rollup-plugin-terser/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2", {
+          "packageLocation": "./.yarn/$$virtual/rollup-plugin-terser-virtual-8bd86516f9/0/cache/rollup-plugin-terser-npm-7.0.2-3f55469f5a-553cc21efc.zip/node_modules/rollup-plugin-terser/",
           "packageDependencies": [
-            ["rollup-plugin-terser", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:7.0.2"],
+            ["rollup-plugin-terser", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2"],
             ["@babel/code-frame", "npm:7.10.4"],
             ["@types/rollup", null],
             ["jest-worker", "npm:26.6.1"],
@@ -4118,10 +4168,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ts-node", [
-        ["virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:9.0.0", {
-          "packageLocation": "./.yarn/$$virtual/ts-node-virtual-b56532d570/0/cache/ts-node-npm-9.0.0-7f58a021c2-49d2ab087f.zip/node_modules/ts-node/",
+        ["virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0", {
+          "packageLocation": "./.yarn/$$virtual/ts-node-virtual-1782172f96/0/cache/ts-node-npm-9.0.0-7f58a021c2-49d2ab087f.zip/node_modules/ts-node/",
           "packageDependencies": [
-            ["ts-node", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:9.0.0"],
+            ["ts-node", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0"],
             ["@types/typescript", null],
             ["arg", "npm:4.1.3"],
             ["diff", "npm:4.0.2"],
@@ -4310,44 +4360,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["extsprintf", "npm:1.3.0"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["viplife.rip", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["viplife.rip", "workspace:."],
-            ["@rollup/plugin-replace", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.4"],
-            ["@rollup/plugin-typescript", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:6.1.0"],
-            ["@types/figlet", "npm:1.2.0"],
-            ["@types/fs-extra", "npm:9.0.2"],
-            ["@types/http-server", "npm:0.10.0"],
-            ["@types/inquirer", "npm:7.3.1"],
-            ["@types/node", "npm:14.14.5"],
-            ["@yarnpkg/pnpify", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.3"],
-            ["chalk", "npm:4.1.0"],
-            ["commander", "npm:6.2.0"],
-            ["eslint", "npm:7.12.1"],
-            ["figlet", "npm:1.5.0"],
-            ["fs-extra", "npm:9.0.1"],
-            ["fuse.js", "npm:6.4.2"],
-            ["http-server", "npm:0.12.3"],
-            ["inquirer", "npm:7.3.3"],
-            ["inquirer-autocomplete-prompt", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:1.2.0"],
-            ["inquirer-datepicker-prompt", "npm:0.4.2"],
-            ["liquidjs", "npm:9.16.1"],
-            ["prettier", "npm:2.1.2"],
-            ["rollup", "npm:2.32.1"],
-            ["rollup-plugin-commonjs", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:10.1.0"],
-            ["rollup-plugin-node-resolve", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:5.2.0"],
-            ["rollup-plugin-terser", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:7.0.2"],
-            ["slugify", "npm:1.4.5"],
-            ["terser", "npm:5.3.8"],
-            ["ts-node", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:9.0.0"],
-            ["tslib", "npm:2.0.3"],
-            ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["which", [
