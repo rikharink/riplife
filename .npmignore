@@ -1,3 +1,4 @@
-dist/
-templates/
+/public
+/assets
+/templates
 config.json

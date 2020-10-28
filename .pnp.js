@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@rollup/plugin-replace", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.4"],
             ["@rollup/plugin-typescript", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:6.1.0"],
+            ["@types/figlet", "npm:1.2.0"],
             ["@types/fs-extra", "npm:9.0.2"],
             ["@types/http-server", "npm:0.10.0"],
             ["@types/inquirer", "npm:7.3.1"],
@@ -47,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:4.1.0"],
             ["commander", "npm:6.2.0"],
             ["eslint", "npm:7.12.1"],
+            ["figlet", "npm:1.5.0"],
             ["fs-extra", "npm:9.0.1"],
             ["fuse.js", "npm:6.4.2"],
             ["http-server", "npm:0.12.3"],
@@ -282,6 +284,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-estree-npm-0.0.45-71d6bd2510-9d339cbcf2.zip/node_modules/@types/estree/",
           "packageDependencies": [
             ["@types/estree", "npm:0.0.45"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/figlet", [
+        ["npm:1.2.0", {
+          "packageLocation": "./.yarn/cache/@types-figlet-npm-1.2.0-803b4bb472-24a19da02d.zip/node_modules/@types/figlet/",
+          "packageDependencies": [
+            ["@types/figlet", "npm:1.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1737,6 +1748,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["fastq", "npm:1.8.0"],
             ["reusify", "npm:1.0.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["figlet", [
+        ["npm:1.5.0", {
+          "packageLocation": "./.yarn/cache/figlet-npm-1.5.0-8014ee3b57-49839d8179.zip/node_modules/figlet/",
+          "packageDependencies": [
+            ["figlet", "npm:1.5.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4299,6 +4319,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["viplife.rip", "workspace:."],
             ["@rollup/plugin-replace", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:2.3.4"],
             ["@rollup/plugin-typescript", "virtual:7fbba2fac68f18f6a7ea5982d4f4d8ba4ce86a63783fec4bf2c88de9a7ef7501776cc9fd65e569648343cb7dd48607eb2454c9ad2645f02bb7beb0ef71350334#npm:6.1.0"],
+            ["@types/figlet", "npm:1.2.0"],
             ["@types/fs-extra", "npm:9.0.2"],
             ["@types/http-server", "npm:0.10.0"],
             ["@types/inquirer", "npm:7.3.1"],
@@ -4307,6 +4328,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:4.1.0"],
             ["commander", "npm:6.2.0"],
             ["eslint", "npm:7.12.1"],
+            ["figlet", "npm:1.5.0"],
             ["fs-extra", "npm:9.0.1"],
             ["fuse.js", "npm:6.4.2"],
             ["http-server", "npm:0.12.3"],

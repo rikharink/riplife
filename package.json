@@ -12,10 +12,10 @@
         "riplife": "bin/riplife.js"
     },
     "scripts": {
-        "riplife": "node ./bin/riplife.js",
-        "riplife:init": "yarn build && yarn riplife -- init",
-        "riplife:build": "yarn build && yarn riplife -- build",
-        "riplife:deserter": "yarn build && yarn riplife -- index.ts",
+        "riplife": "yarn build && node ./bin/riplife.js",
+        "riplife:init": "yarn riplife -- init",
+        "riplife:build": "yarn riplife -- build",
+        "riplife:deserter": "yarn riplife -- index.ts",
         "serve": "http-server ./dist",
         "build": "rollup -c rollup.config.js",
         "start": "yarn build && yarn riplife:build && yarn serve"
@@ -23,6 +23,7 @@
     "devDependencies": {
         "@rollup/plugin-replace": "^2.3.4",
         "@rollup/plugin-typescript": "^6.1.0",
+        "@types/figlet": "^1",
         "@types/fs-extra": "^9",
         "@types/http-server": "^0",
         "@types/inquirer": "^7",
@@ -42,6 +43,7 @@
     "dependencies": {
         "chalk": "^4.1.0",
         "commander": "^6.2.0",
+        "figlet": "^1.5.0",
         "fs-extra": "^9.0.1",
         "fuse.js": "^6.4.2",
         "inquirer": "^7.3.3",

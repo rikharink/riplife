@@ -3,6 +3,7 @@
 
 const CONFIG_FILE = 'config.json';
 
+import figlet from 'figlet';
 import inquirer from 'inquirer';
 import autocomplete from 'inquirer-autocomplete-prompt';
 import datepicker from 'inquirer-datepicker-prompt';
@@ -47,6 +48,18 @@ interface Config {
     author: string;
     daysMessage: string;
     teams: Team[];
+}
+
+function getBanner(): Promise<string> {
+    var promise = new Promise<string>((resolve, reject) => {
+        figlet.text('Rip Life', 'Caligraphy', (error, result) => {
+            if (!error) {
+                resolve(result);
+            }
+            reject(error);
+        });
+    });
+    return promise;
 }
 
 async function getConfig(): Promise<Config> {
@@ -107,6 +120,7 @@ async function addDeserterIfNotExists(answers: Answer, config: Config): Promise<
 }
 
 async function addDeserter(): Promise<Config> {
+    console.log(await getBanner());
     let config = await getConfig();
     const fuse = new Fuse(config.teams, {
         keys: ['name'],
@@ -147,21 +161,22 @@ async function addDeserter(): Promise<Config> {
 }
 
 async function buildSite(): Promise<void> {
+    console.log(await getBanner());
     const config = await getConfig();
     console.info(`Building ${config.title}...`);
 
-    await fs.remove('dist');
-    await fs.mkdir('dist');
+    await fs.remove('public');
+    await fs.mkdir('public');
 
     const template = await fs.readFile(path.join('templates', 'index.liquid'), 'utf-8');
     const teamTemplate = await fs.readFile(path.join('templates', 'team.liquid'), 'utf-8');
     const deserterTemplate = await fs.readFile(path.join('templates', 'person.liquid'), 'utf-8');
 
     const index = await engine.parseAndRender(template, config);
-    await fs.writeFile(path.join('dist', 'index.html'), index);
+    await fs.writeFile(path.join('public', 'index.html'), index);
     console.info('Creating index...');
     for (const team of config.teams) {
-        await fs.mkdir(path.join('dist', team.slug));
+        await fs.mkdir(path.join('public', team.slug));
         const teamScope = {
             title: `${config.title} - ${team.name}`,
             description: config.description,
@@ -170,7 +185,7 @@ async function buildSite(): Promise<void> {
         };
         const index = await engine.parseAndRender(teamTemplate, teamScope);
         console.info(`Creating index for ${team.name}...`);
-        await fs.writeFile(path.join('dist', team.slug, 'index.html'), index);
+        await fs.writeFile(path.join('public', team.slug, 'index.html'), index);
 
         for (const deserter of team.deserters) {
             console.info(`Creating page for ${deserter.name}...`);
@@ -183,38 +198,41 @@ async function buildSite(): Promise<void> {
                 deserter: deserter,
             };
             const deserterPage = await engine.parseAndRender(deserterTemplate, deserterScope);
-            await fs.writeFile(path.join('dist', team.slug, `${deserter.slug}.html`), deserterPage);
+            await fs.writeFile(path.join('public', team.slug, `${deserter.slug}.html`), deserterPage);
         }
     }
 
-    console.info('Copying public assets...');
-    await fs.copy('public', 'dist');
+    console.info('Copying assets...');
+    await fs.copy('assets', 'public');
     console.info('Done!');
 }
 
 async function init(): Promise<void> {
-    await fs.ensureDir('public');
-    await fs.ensureDir(path.join('public', 'css'));
-    await fs.ensureDir(path.join('public', 'img'));
-    await fs.ensureDir(path.join('public', 'js'));
+    console.log(await getBanner());
+    console.log('Initializing assets...');
+    await fs.ensureDir('assets');
+    await fs.ensureDir(path.join('assets', 'css'));
+    await fs.ensureDir(path.join('assets', 'img'));
+    await fs.ensureDir(path.join('assets', 'js'));
 
-    const baseStyle = `BASE_STYLE`.slice(1,-1);
-    const baseScript = `BASE_SCRIPT`.slice(1,-1);
-    const baseTemplate = `BASE_TEMPLATE`.slice(1,-1);
-    const indexTemplate = `INDEX_TEMPLATE`.slice(1,-1);
-    const teamTemplate = `TEAM_TEMPLATE`.slice(1,-1);
-    const personTemplate = `PERSON_TEMPLATE`.slice(1,-1);
+    const baseStyle = `BASE_STYLE`.slice(1, -1);
+    const baseScript = `BASE_SCRIPT`.slice(1, -1);
+    const baseTemplate = `BASE_TEMPLATE`.slice(1, -1);
+    const indexTemplate = `INDEX_TEMPLATE`.slice(1, -1);
+    const teamTemplate = `TEAM_TEMPLATE`.slice(1, -1);
+    const personTemplate = `PERSON_TEMPLATE`.slice(1, -1);
 
-    const cssPath = path.join('public', 'css', 'styles.css');
+    const cssPath = path.join('assets', 'css', 'styles.css');
     if (!(await fs.pathExists(cssPath))) {
         await fs.writeFile(cssPath, baseStyle);
     }
 
-    const jsPath = path.join('public', 'js', 'index.js');
+    const jsPath = path.join('assets', 'js', 'index.js');
     if (!(await fs.pathExists(jsPath))) {
         await fs.writeFile(jsPath, baseScript);
     }
 
+    console.log('Initializing templates...');
     await fs.ensureDir('templates');
 
     const baseTemplatePath = path.join('templates', 'baseof.liquid');
@@ -237,6 +255,7 @@ async function init(): Promise<void> {
         await fs.writeFile(personTemplatePath, personTemplate);
     }
 
+    console.log('Initializing config...');
     const configPath = CONFIG_FILE;
     if (!(await fs.pathExists(configPath))) {
         const config = {
@@ -248,14 +267,21 @@ async function init(): Promise<void> {
         };
         await saveConfig(config);
     }
+    console.log('Done!');
 }
 
 program.name('riplife').version('1.0.0');
-program.command('init').action(init);
-program.command('build').action(buildSite);
+program.command('init').description('Setup the directory for usages with riplife').action(init);
+program.command('build').description('Build the static pages').action(buildSite);
+program
+    .command('add')
+    .description('Add a new teammember that left your team to the config')
+    .action(async () => {
+        await addDeserter();
+    });
 
 program.action(async () => {
-    await addDeserter();
+    console.log(await getBanner());
+    program.help();
 });
-
 program.parse(process.argv);

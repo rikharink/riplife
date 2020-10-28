@@ -18,7 +18,8 @@
 .history
 .ionide
 
-dist/
+/public
+/assets
 /bin
 public/
 templates/
