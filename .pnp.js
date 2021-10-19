@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-replace", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.4"],
             ["@rollup/plugin-typescript", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:6.1.0"],
             ["@types/figlet", "npm:1.2.0"],
-            ["@types/fs-extra", "npm:9.0.2"],
+            ["@types/fs-extra", "npm:9.0.13"],
             ["@types/http-server", "npm:0.10.0"],
             ["@types/inquirer", "npm:7.3.1"],
             ["@types/node", "npm:14.14.5"],
@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cross-env", "npm:7.0.2"],
             ["eslint", "npm:7.12.1"],
             ["figlet", "npm:1.5.0"],
-            ["fs-extra", "npm:9.0.1"],
+            ["fs-extra", "npm:9.1.0"],
             ["fuse.js", "npm:6.4.2"],
             ["http-server", "npm:0.12.3"],
             ["inquirer", "npm:7.3.3"],
@@ -298,10 +298,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/fs-extra", [
-        ["npm:9.0.2", {
-          "packageLocation": "./.yarn/cache/@types-fs-extra-npm-9.0.2-76105aa5a6-9fb00885d8.zip/node_modules/@types/fs-extra/",
+        ["npm:9.0.13", {
+          "packageLocation": "./.yarn/cache/@types-fs-extra-npm-9.0.13-12fb7badd7-ca4dc68663.zip/node_modules/@types/fs-extra/",
           "packageDependencies": [
-            ["@types/fs-extra", "npm:9.0.2"],
+            ["@types/fs-extra", "npm:9.0.13"],
             ["@types/node", "npm:13.13.29"]
           ],
           "linkType": "HARD",
@@ -419,7 +419,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-replace", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.4"],
             ["@rollup/plugin-typescript", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:6.1.0"],
             ["@types/figlet", "npm:1.2.0"],
-            ["@types/fs-extra", "npm:9.0.2"],
+            ["@types/fs-extra", "npm:9.0.13"],
             ["@types/http-server", "npm:0.10.0"],
             ["@types/inquirer", "npm:7.3.1"],
             ["@types/node", "npm:14.14.5"],
@@ -428,7 +428,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cross-env", "npm:7.0.2"],
             ["eslint", "npm:7.12.1"],
             ["figlet", "npm:1.5.0"],
-            ["fs-extra", "npm:9.0.1"],
+            ["fs-extra", "npm:9.1.0"],
             ["fuse.js", "npm:6.4.2"],
             ["http-server", "npm:0.12.3"],
             ["inquirer", "npm:7.3.3"],
@@ -1908,14 +1908,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["fs-extra", [
-        ["npm:9.0.1", {
-          "packageLocation": "./.yarn/cache/fs-extra-npm-9.0.1-2925889105-b7374cb058.zip/node_modules/fs-extra/",
+        ["npm:9.1.0", {
+          "packageLocation": "./.yarn/cache/fs-extra-npm-9.1.0-983c2ddb4c-e667d8df54.zip/node_modules/fs-extra/",
           "packageDependencies": [
-            ["fs-extra", "npm:9.0.1"],
+            ["fs-extra", "npm:9.1.0"],
             ["at-least-node", "npm:1.0.0"],
             ["graceful-fs", "npm:4.2.4"],
             ["jsonfile", "npm:6.0.1"],
-            ["universalify", "npm:1.0.0"]
+            ["universalify", "npm:2.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4288,6 +4288,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/universalify-npm-1.0.0-eff81409f3-d74303a8d9.zip/node_modules/universalify/",
           "packageDependencies": [
             ["universalify", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/universalify-npm-2.0.0-03b8b418a8-36bfbdc97b.zip/node_modules/universalify/",
+          "packageDependencies": [
+            ["universalify", "npm:2.0.0"]
           ],
           "linkType": "HARD",
         }]
