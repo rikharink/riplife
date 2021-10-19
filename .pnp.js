@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/figlet", "npm:1.2.0"],
             ["@types/fs-extra", "npm:9.0.2"],
             ["@types/http-server", "npm:0.10.0"],
-            ["@types/inquirer", "npm:7.3.1"],
+            ["@types/inquirer", "npm:7.3.3"],
             ["@types/node", "npm:14.14.5"],
             ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
             ["commander", "npm:6.2.0"],
@@ -327,10 +327,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/inquirer", [
-        ["npm:7.3.1", {
-          "packageLocation": "./.yarn/cache/@types-inquirer-npm-7.3.1-63b5231eee-2db996acf8.zip/node_modules/@types/inquirer/",
+        ["npm:7.3.3", {
+          "packageLocation": "./.yarn/cache/@types-inquirer-npm-7.3.3-af7d2ec75f-57ec506352.zip/node_modules/@types/inquirer/",
           "packageDependencies": [
-            ["@types/inquirer", "npm:7.3.1"],
+            ["@types/inquirer", "npm:7.3.3"],
             ["@types/through", "npm:0.0.30"],
             ["rxjs", "npm:6.6.3"]
           ],
@@ -421,7 +421,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/figlet", "npm:1.2.0"],
             ["@types/fs-extra", "npm:9.0.2"],
             ["@types/http-server", "npm:0.10.0"],
-            ["@types/inquirer", "npm:7.3.1"],
+            ["@types/inquirer", "npm:7.3.3"],
             ["@types/node", "npm:14.14.5"],
             ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
             ["commander", "npm:6.2.0"],
@@ -2376,7 +2376,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/inquirer-autocomplete-prompt-virtual-ba5f3fecbc/0/cache/inquirer-autocomplete-prompt-npm-1.2.0-ff9189b25c-34e37b0282.zip/node_modules/inquirer-autocomplete-prompt/",
           "packageDependencies": [
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
-            ["@types/inquirer", "npm:7.3.1"],
+            ["@types/inquirer", "npm:7.3.3"],
             ["ansi-escapes", "npm:4.3.1"],
             ["chalk", "npm:4.1.0"],
             ["figures", "npm:3.2.0"],

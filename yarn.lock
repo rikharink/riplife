@@ -215,13 +215,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/inquirer@npm:^7":
-  version: 7.3.1
-  resolution: "@types/inquirer@npm:7.3.1"
+"@types/inquirer@npm:7.3.3":
+  version: 7.3.3
+  resolution: "@types/inquirer@npm:7.3.3"
   dependencies:
     "@types/through": "*"
     rxjs: ^6.4.0
-  checksum: 2db996acf8d9073a215c5f87797d08a50a86dd1921f4f7b45040aa225b62c522d7d67a37529329395c6e24f6f5e877ddf463f20686aad819d70c0afea6297a4a
+  checksum: 57ec50635239bfd5a8f71bb323a694aa89c3b437841d0bcd76ba808f38c41f92562b2c847f8a48260757e2a75f844509d8a0a9a49cf612fff5823a2ddf509a8a
   languageName: node
   linkType: hard
 
@@ -298,7 +298,7 @@ __metadata:
     "@types/figlet": ^1
     "@types/fs-extra": ^9
     "@types/http-server": ^0
-    "@types/inquirer": ^7
+    "@types/inquirer": 7.3.3
     "@types/node": ^14.14.5
     "@yarnpkg/pnpify": ^2.3.3
     commander: ^6.2.0
