@@ -52,6 +52,6 @@
         "inquirer-autocomplete-prompt": "^1.2.0",
         "inquirer-datepicker-prompt": "^0.4.2",
         "liquidjs": "^9.16.1",
-        "slugify": "^1.4.5"
+        "slugify": "1.6.5"
     }
 }

@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
             ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
             ["rollup-plugin-terser", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2"],
-            ["slugify", "npm:1.4.5"],
+            ["slugify", "npm:1.6.5"],
             ["terser", "npm:5.3.8"],
             ["ts-node", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0"],
             ["tslib", "npm:2.0.3"],
@@ -440,7 +440,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
             ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
             ["rollup-plugin-terser", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2"],
-            ["slugify", "npm:1.4.5"],
+            ["slugify", "npm:1.6.5"],
             ["terser", "npm:5.3.8"],
             ["ts-node", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0"],
             ["tslib", "npm:2.0.3"],
@@ -3809,10 +3809,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["slugify", [
-        ["npm:1.4.5", {
-          "packageLocation": "./.yarn/cache/slugify-npm-1.4.5-21eae27376-d402a91631.zip/node_modules/slugify/",
+        ["npm:1.6.5", {
+          "packageLocation": "./.yarn/cache/slugify-npm-1.6.5-6db25d7016-2b66420490.zip/node_modules/slugify/",
           "packageDependencies": [
-            ["slugify", "npm:1.4.5"]
+            ["slugify", "npm:1.6.5"]
           ],
           "linkType": "HARD",
         }]

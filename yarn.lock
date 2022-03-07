@@ -317,7 +317,7 @@ __metadata:
     rollup-plugin-commonjs: ^10.1.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
-    slugify: ^1.4.5
+    slugify: 1.6.5
     terser: ^5.3.8
     ts-node: ^9.0.0
     tslib: ^2.0.3
@@ -3302,10 +3302,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"slugify@npm:^1.4.5":
-  version: 1.4.5
-  resolution: "slugify@npm:1.4.5"
-  checksum: d402a9163144e6e5c904a3409383e0c780422fea93d32c023622cc8eaeab34e2ed0e28c69402704038ef771f6f4bb636619b142db6913165fa9f5328229773da
+"slugify@npm:1.6.5":
+  version: 1.6.5
+  resolution: "slugify@npm:1.6.5"
+  checksum: 2b66420490bfbfd8116fbb577bc3b556f792799f7fb2f19807fb920d63cfbd62b71511191c837a628aac8a0708dce8e725801e2299f10da232dd2ce0f52d5591
   languageName: node
   linkType: hard
 
