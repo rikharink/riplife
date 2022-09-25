@@ -312,7 +312,7 @@ __metadata:
     inquirer-autocomplete-prompt: ^1.2.0
     inquirer-datepicker-prompt: ^0.4.2
     liquidjs: ^9.16.1
-    prettier: ^2.1.2
+    prettier: 2.7.1
     rollup: ^2.32.1
     rollup-plugin-commonjs: ^10.1.0
     rollup-plugin-node-resolve: ^5.2.0
@@ -2823,12 +2823,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "prettier@npm:2.1.2"
+"prettier@npm:2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: bedc24c568efbcfe45f255558900777e2fabb36bf28ed4c22d2456eb22dfb012d12e566a46472ea5b857a4e9f263e888f7e316527d00bb58188f1820b0b0031a
+  checksum: 74e646bf9416eaf01d2aaf3e63f0227bc956eae5901bc0701885e790ea28fba5a68216a4bc766b916b48a9c0637f6a48181d6c995a2e4173bdff90bcf64b6bcf
   languageName: node
   linkType: hard
 

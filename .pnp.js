@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
             ["liquidjs", "npm:9.16.1"],
-            ["prettier", "npm:2.1.2"],
+            ["prettier", "npm:2.7.1"],
             ["rollup", "npm:2.32.1"],
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
             ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
@@ -435,7 +435,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
             ["liquidjs", "npm:9.16.1"],
-            ["prettier", "npm:2.1.2"],
+            ["prettier", "npm:2.7.1"],
             ["rollup", "npm:2.32.1"],
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
             ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
@@ -3273,10 +3273,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier", [
-        ["npm:2.1.2", {
-          "packageLocation": "./.yarn/cache/prettier-npm-2.1.2-9d456ef3cd-bedc24c568.zip/node_modules/prettier/",
+        ["npm:2.7.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-74e646bf94.zip/node_modules/prettier/",
           "packageDependencies": [
-            ["prettier", "npm:2.1.2"]
+            ["prettier", "npm:2.7.1"]
           ],
           "linkType": "HARD",
         }]
