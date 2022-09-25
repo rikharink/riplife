@@ -311,7 +311,7 @@ __metadata:
     inquirer: ^7.3.3
     inquirer-autocomplete-prompt: ^1.2.0
     inquirer-datepicker-prompt: ^0.4.2
-    liquidjs: ^9.16.1
+    liquidjs: 9.42.0
     prettier: ^2.1.2
     rollup: ^2.32.1
     rollup-plugin-commonjs: ^10.1.0
@@ -2342,13 +2342,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^9.16.1":
-  version: 9.16.1
-  resolution: "liquidjs@npm:9.16.1"
+"liquidjs@npm:9.42.0":
+  version: 9.42.0
+  resolution: "liquidjs@npm:9.42.0"
   bin:
     liquid: bin/liquid.js
     liquidjs: bin/liquid.js
-  checksum: bc62ac8795c170d24d06d18f655210648034b06c7e9889682426854bcdd064b2517ecb96662fa0e09d8767eca4236e83603218f5262fe269c730c0374fb0b27b
+  checksum: a573489da3dde568fab0e91db7b73502995d3853a6aacfe523bc08c4ff2e2e972aa287f3d88f793ed8103d490aeb25681ad736300c8b8b8beff3afddd139c469
   languageName: node
   linkType: hard
 

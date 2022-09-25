@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inquirer", "npm:7.3.3"],
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
-            ["liquidjs", "npm:9.16.1"],
+            ["liquidjs", "npm:9.42.0"],
             ["prettier", "npm:2.1.2"],
             ["rollup", "npm:2.32.1"],
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
@@ -434,7 +434,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inquirer", "npm:7.3.3"],
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
-            ["liquidjs", "npm:9.16.1"],
+            ["liquidjs", "npm:9.42.0"],
             ["prettier", "npm:2.1.2"],
             ["rollup", "npm:2.32.1"],
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
@@ -2726,10 +2726,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["liquidjs", [
-        ["npm:9.16.1", {
-          "packageLocation": "./.yarn/cache/liquidjs-npm-9.16.1-360304fe37-bc62ac8795.zip/node_modules/liquidjs/",
+        ["npm:9.42.0", {
+          "packageLocation": "./.yarn/cache/liquidjs-npm-9.42.0-04def4552d-a573489da3.zip/node_modules/liquidjs/",
           "packageDependencies": [
-            ["liquidjs", "npm:9.16.1"]
+            ["liquidjs", "npm:9.42.0"]
           ],
           "linkType": "HARD",
         }]
