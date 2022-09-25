@@ -62,7 +62,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
             ["rollup-plugin-terser", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2"],
             ["slugify", "npm:1.4.5"],
-            ["terser", "npm:5.3.8"],
+            ["terser", "npm:5.15.0"],
             ["ts-node", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0"],
             ["tslib", "npm:2.0.3"],
             ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
@@ -126,6 +126,67 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.20"],
             ["minimatch", "npm:3.0.4"],
             ["strip-json-comments", "npm:3.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@jridgewell/gen-mapping", [
+        ["npm:0.3.2", {
+          "packageLocation": "./.yarn/cache/@jridgewell-gen-mapping-npm-0.3.2-c64eeb4a4e-9a5cb819d4.zip/node_modules/@jridgewell/gen-mapping/",
+          "packageDependencies": [
+            ["@jridgewell/gen-mapping", "npm:0.3.2"],
+            ["@jridgewell/set-array", "npm:1.1.2"],
+            ["@jridgewell/sourcemap-codec", "npm:1.4.14"],
+            ["@jridgewell/trace-mapping", "npm:0.3.15"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@jridgewell/resolve-uri", [
+        ["npm:3.1.0", {
+          "packageLocation": "./.yarn/cache/@jridgewell-resolve-uri-npm-3.1.0-6ff2351e61-e244743192.zip/node_modules/@jridgewell/resolve-uri/",
+          "packageDependencies": [
+            ["@jridgewell/resolve-uri", "npm:3.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@jridgewell/set-array", [
+        ["npm:1.1.2", {
+          "packageLocation": "./.yarn/cache/@jridgewell-set-array-npm-1.1.2-45b82d7fb6-1013d30769.zip/node_modules/@jridgewell/set-array/",
+          "packageDependencies": [
+            ["@jridgewell/set-array", "npm:1.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@jridgewell/source-map", [
+        ["npm:0.3.2", {
+          "packageLocation": "./.yarn/cache/@jridgewell-source-map-npm-0.3.2-6fd1f37b22-9a724d9c27.zip/node_modules/@jridgewell/source-map/",
+          "packageDependencies": [
+            ["@jridgewell/source-map", "npm:0.3.2"],
+            ["@jridgewell/gen-mapping", "npm:0.3.2"],
+            ["@jridgewell/trace-mapping", "npm:0.3.15"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@jridgewell/sourcemap-codec", [
+        ["npm:1.4.14", {
+          "packageLocation": "./.yarn/cache/@jridgewell-sourcemap-codec-npm-1.4.14-f5f0630788-bc601cc782.zip/node_modules/@jridgewell/sourcemap-codec/",
+          "packageDependencies": [
+            ["@jridgewell/sourcemap-codec", "npm:1.4.14"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@jridgewell/trace-mapping", [
+        ["npm:0.3.15", {
+          "packageLocation": "./.yarn/cache/@jridgewell-trace-mapping-npm-0.3.15-7357dbf648-224ffe2acd.zip/node_modules/@jridgewell/trace-mapping/",
+          "packageDependencies": [
+            ["@jridgewell/trace-mapping", "npm:0.3.15"],
+            ["@jridgewell/resolve-uri", "npm:3.1.0"],
+            ["@jridgewell/sourcemap-codec", "npm:1.4.14"]
           ],
           "linkType": "HARD",
         }]
@@ -441,7 +502,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-node-resolve", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:5.2.0"],
             ["rollup-plugin-terser", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:7.0.2"],
             ["slugify", "npm:1.4.5"],
-            ["terser", "npm:5.3.8"],
+            ["terser", "npm:5.15.0"],
             ["ts-node", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:9.0.0"],
             ["tslib", "npm:2.0.3"],
             ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"]
@@ -604,6 +665,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/acorn-npm-7.4.1-f450b4646c-2bde98c28c.zip/node_modules/acorn/",
           "packageDependencies": [
             ["acorn", "npm:7.4.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:8.8.0", {
+          "packageLocation": "./.yarn/cache/acorn-npm-8.8.0-9ef399ab45-4b6db12178.zip/node_modules/acorn/",
+          "packageDependencies": [
+            ["acorn", "npm:8.8.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3842,6 +3910,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map", "npm:0.6.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:0.5.21", {
+          "packageLocation": "./.yarn/cache/source-map-support-npm-0.5.21-09ca99e250-b4eba15575.zip/node_modules/source-map-support/",
+          "packageDependencies": [
+            ["source-map-support", "npm:0.5.21"],
+            ["buffer-from", "npm:1.1.1"],
+            ["source-map", "npm:0.6.1"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["sourcemap-codec", [
@@ -4096,6 +4173,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["terser", [
+        ["npm:5.15.0", {
+          "packageLocation": "./.yarn/cache/terser-npm-5.15.0-a7f79b7859-f56bf63988.zip/node_modules/terser/",
+          "packageDependencies": [
+            ["terser", "npm:5.15.0"],
+            ["@jridgewell/source-map", "npm:0.3.2"],
+            ["acorn", "npm:8.8.0"],
+            ["commander", "npm:2.20.3"],
+            ["source-map-support", "npm:0.5.21"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:5.3.8", {
           "packageLocation": "./.yarn/cache/terser-npm-5.3.8-5c417c2e25-3fc070378b.zip/node_modules/terser/",
           "packageDependencies": [

@@ -59,6 +59,58 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jridgewell/gen-mapping@npm:^0.3.0":
+  version: 0.3.2
+  resolution: "@jridgewell/gen-mapping@npm:0.3.2"
+  dependencies:
+    "@jridgewell/set-array": ^1.0.1
+    "@jridgewell/sourcemap-codec": ^1.4.10
+    "@jridgewell/trace-mapping": ^0.3.9
+  checksum: 9a5cb819d4b9c88580a95cd9ef5230ba6d8774589ac4fb9d52bf06e15182f70adae88fbe05972fc9e2e4b7f5b6452f282a9b7eba66fbbc0b98f979953e33c946
+  languageName: node
+  linkType: hard
+
+"@jridgewell/resolve-uri@npm:^3.0.3":
+  version: 3.1.0
+  resolution: "@jridgewell/resolve-uri@npm:3.1.0"
+  checksum: e244743192d930084e0df6ad9e8eccd243326e09d258132a65ce003db3d89cf7d572dc77b49e3141f70ca6cc21fcead158da5e41e4f85b22e29f7632c7ec8086
+  languageName: node
+  linkType: hard
+
+"@jridgewell/set-array@npm:^1.0.1":
+  version: 1.1.2
+  resolution: "@jridgewell/set-array@npm:1.1.2"
+  checksum: 1013d307699d2ccf04bcd7298e2c1f0932014cc55393ce56f9835925935a91c863e660013c5b2faed3b499518bb6c2918b1b7474112ee0122495980f36d35a22
+  languageName: node
+  linkType: hard
+
+"@jridgewell/source-map@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@jridgewell/source-map@npm:0.3.2"
+  dependencies:
+    "@jridgewell/gen-mapping": ^0.3.0
+    "@jridgewell/trace-mapping": ^0.3.9
+  checksum: 9a724d9c2762eb5003c51ef4825a04c4a04fad7122b8654e3532449b0536f012c7796400cc4267d4f63d57e662c4744d174e33734a73718ef65d92d5d3f47fc9
+  languageName: node
+  linkType: hard
+
+"@jridgewell/sourcemap-codec@npm:^1.4.10":
+  version: 1.4.14
+  resolution: "@jridgewell/sourcemap-codec@npm:1.4.14"
+  checksum: bc601cc782f385eac186a0151003e1de615b610282d294fa30840cd2382b8e657ea854bff4fe3e8e6107c81533bac0a8bd003d87eee4a7ffe839fba3a07e2969
+  languageName: node
+  linkType: hard
+
+"@jridgewell/trace-mapping@npm:^0.3.9":
+  version: 0.3.15
+  resolution: "@jridgewell/trace-mapping@npm:0.3.15"
+  dependencies:
+    "@jridgewell/resolve-uri": ^3.0.3
+    "@jridgewell/sourcemap-codec": ^1.4.10
+  checksum: 224ffe2acddddd0cdd6f16c46fe39ed6cc34452e00a139a4f160ff714435578aa519b716e00394c2f832bca6b075c1850ba44cd41cff71ce44efed4c54b05e6b
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.3":
   version: 2.1.3
   resolution: "@nodelib/fs.scandir@npm:2.1.3"
@@ -318,7 +370,7 @@ __metadata:
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
     slugify: ^1.4.5
-    terser: ^5.3.8
+    terser: 5.15.0
     ts-node: ^9.0.0
     tslib: ^2.0.3
     typescript: ^4.0.5
@@ -484,6 +536,15 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 2bde98c28c1be9a08e41e581179b776b43396c9486ce52b2b9848d73c53df38c516b7edba4bacdc84cabc9d7a3299f3b46ef240ae261c38dbf8ddd89f635bd32
+  languageName: node
+  linkType: hard
+
+"acorn@npm:^8.5.0":
+  version: 8.8.0
+  resolution: "acorn@npm:8.8.0"
+  bin:
+    acorn: bin/acorn
+  checksum: 4b6db12178fa19ed7984b1544a136015e109e29b649f8b6a528ab627a99d6d11e03ff4d01324012fdefceddbf97a749c8dbf590d6658a9f2ed709f577e3ccdec
   languageName: node
   linkType: hard
 
@@ -3319,6 +3380,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"source-map-support@npm:~0.5.20":
+  version: 0.5.21
+  resolution: "source-map-support@npm:0.5.21"
+  dependencies:
+    buffer-from: ^1.0.0
+    source-map: ^0.6.0
+  checksum: b4eba15575b07ae384c0094e76703bcfd367487ae87a4e4632880b661ca0d2efb76012cb827904866f2524869f2f1e307c9ebc72fd420ffd0b6f195d9c9ad4bd
+  languageName: node
+  linkType: hard
+
 "source-map@npm:^0.6.0":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
@@ -3576,7 +3647,21 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.0.0, terser@npm:^5.3.8":
+"terser@npm:5.15.0":
+  version: 5.15.0
+  resolution: "terser@npm:5.15.0"
+  dependencies:
+    "@jridgewell/source-map": ^0.3.2
+    acorn: ^8.5.0
+    commander: ^2.20.0
+    source-map-support: ~0.5.20
+  bin:
+    terser: bin/terser
+  checksum: f56bf639887177f3ead9738ceaa5daea449b7d23ca5e5d63fec5dd64237f8f0eab3508bff93a4679355cf01de48403baeb4ada75bf8f7d31182ce64a35d87928
+  languageName: node
+  linkType: hard
+
+"terser@npm:^5.0.0":
   version: 5.3.8
   resolution: "terser@npm:5.3.8"
   dependencies:
