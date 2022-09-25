@@ -183,10 +183,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/figlet@npm:^1":
-  version: 1.2.0
-  resolution: "@types/figlet@npm:1.2.0"
-  checksum: 24a19da02d71e01be4360018e95b57c90d28375a47e0e33e810718724d8586250a076ce1c7fdc089562cb1319f6685db17e270721dd07a33a90fd03b38949c0d
+"@types/figlet@npm:1.5.5":
+  version: 1.5.5
+  resolution: "@types/figlet@npm:1.5.5"
+  checksum: 390c86659f99008feb96afb6a6603f45a19b59e9efe637efad8cdb6b78a3a60493f62b3ce6e3c7b00675bb14109b1790d79156c9449eebde7a8be37f8b212b27
   languageName: node
   linkType: hard
 
@@ -295,7 +295,7 @@ __metadata:
   dependencies:
     "@rollup/plugin-replace": ^2.3.4
     "@rollup/plugin-typescript": ^6.1.0
-    "@types/figlet": ^1
+    "@types/figlet": 1.5.5
     "@types/fs-extra": ^9
     "@types/http-server": ^0
     "@types/inquirer": ^7
@@ -304,7 +304,7 @@ __metadata:
     commander: ^6.2.0
     cross-env: ^7.0.2
     eslint: ^7.12.1
-    figlet: ^1.5.0
+    figlet: 1.5.2
     fs-extra: ^9.0.1
     fuse.js: ^6.4.2
     http-server: ^0.12.3
@@ -1521,10 +1521,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figlet@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "figlet@npm:1.5.0"
-  checksum: 49839d8179dc0a7b6f105f13348e233df79cc2959088316560c1a85af0e99466b3e85d417de2a1f87d4dd4f42c7a734b01b8290aaf1c04c80f6fcffdf7c86bde
+"figlet@npm:1.5.2":
+  version: 1.5.2
+  resolution: "figlet@npm:1.5.2"
+  checksum: 64b6932ac1600f5d3a40a06964f420cffe3386312bfe05a128942320cbb9c78a67d421c670f2ee3e46ac323d986c37b8d7e27e0bdeebbbfcf532c90cee401f67
   languageName: node
   linkType: hard
 
