@@ -51,7 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["figlet", "npm:1.5.0"],
             ["fs-extra", "npm:9.0.1"],
             ["fuse.js", "npm:6.4.2"],
-            ["http-server", "npm:0.12.3"],
+            ["http-server", "npm:0.13.0"],
             ["inquirer", "npm:7.3.3"],
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
@@ -430,7 +430,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["figlet", "npm:1.5.0"],
             ["fs-extra", "npm:9.0.1"],
             ["fuse.js", "npm:6.4.2"],
-            ["http-server", "npm:0.12.3"],
+            ["http-server", "npm:0.13.0"],
             ["inquirer", "npm:7.3.3"],
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
@@ -1426,19 +1426,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["ecstatic", [
-        ["npm:3.3.2", {
-          "packageLocation": "./.yarn/cache/ecstatic-npm-3.3.2-35099559aa-a6185a71da.zip/node_modules/ecstatic/",
-          "packageDependencies": [
-            ["ecstatic", "npm:3.3.2"],
-            ["he", "npm:1.2.0"],
-            ["mime", "npm:1.6.0"],
-            ["minimist", "npm:1.2.5"],
-            ["url-join", "npm:2.0.5"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["emoji-regex", [
         ["npm:7.0.3", {
           "packageLocation": "./.yarn/cache/emoji-regex-npm-7.0.3-cfe9479bb3-e3a504cf52.zip/node_modules/emoji-regex/",
@@ -2205,20 +2192,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["http-server", [
-        ["npm:0.12.3", {
-          "packageLocation": "./.yarn/cache/http-server-npm-0.12.3-798b1680fa-cbb1f5b926.zip/node_modules/http-server/",
+        ["npm:0.13.0", {
+          "packageLocation": "./.yarn/cache/http-server-npm-0.13.0-1cf2d3378e-847c5d79ee.zip/node_modules/http-server/",
           "packageDependencies": [
-            ["http-server", "npm:0.12.3"],
+            ["http-server", "npm:0.13.0"],
             ["basic-auth", "npm:1.1.0"],
             ["colors", "npm:1.4.0"],
             ["corser", "npm:2.0.1"],
-            ["ecstatic", "npm:3.3.2"],
+            ["he", "npm:1.2.0"],
             ["http-proxy", "npm:1.18.1"],
+            ["mime", "npm:1.6.0"],
             ["minimist", "npm:1.2.5"],
             ["opener", "npm:1.5.2"],
             ["portfinder", "npm:1.0.28"],
             ["secure-compare", "npm:3.0.1"],
-            ["union", "npm:0.5.0"]
+            ["union", "npm:0.5.0"],
+            ["url-join", "npm:2.0.5"]
           ],
           "linkType": "HARD",
         }]
