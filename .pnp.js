@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/inquirer", "npm:7.3.1"],
             ["@types/node", "npm:14.14.5"],
             ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
-            ["commander", "npm:6.2.0"],
+            ["commander", "npm:6.2.1"],
             ["cross-env", "npm:7.0.2"],
             ["eslint", "npm:7.12.1"],
             ["figlet", "npm:1.5.0"],
@@ -424,7 +424,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/inquirer", "npm:7.3.1"],
             ["@types/node", "npm:14.14.5"],
             ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
-            ["commander", "npm:6.2.0"],
+            ["commander", "npm:6.2.1"],
             ["cross-env", "npm:7.0.2"],
             ["eslint", "npm:7.12.1"],
             ["figlet", "npm:1.5.0"],
@@ -1197,10 +1197,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:6.2.0", {
-          "packageLocation": "./.yarn/cache/commander-npm-6.2.0-5c82761f33-c78501cd98.zip/node_modules/commander/",
+        ["npm:6.2.1", {
+          "packageLocation": "./.yarn/cache/commander-npm-6.2.1-d5b635f237-47856aae6f.zip/node_modules/commander/",
           "packageDependencies": [
-            ["commander", "npm:6.2.0"]
+            ["commander", "npm:6.2.1"]
           ],
           "linkType": "HARD",
         }]
