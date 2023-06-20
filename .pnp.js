@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:14.14.5"],
             ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
             ["commander", "npm:6.2.0"],
-            ["cross-env", "npm:7.0.2"],
+            ["cross-env", "npm:7.0.3"],
             ["eslint", "npm:7.12.1"],
             ["figlet", "npm:1.5.0"],
             ["fs-extra", "npm:9.0.1"],
@@ -425,7 +425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:14.14.5"],
             ["@yarnpkg/pnpify", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:2.3.3"],
             ["commander", "npm:6.2.0"],
-            ["cross-env", "npm:7.0.2"],
+            ["cross-env", "npm:7.0.3"],
             ["eslint", "npm:7.12.1"],
             ["figlet", "npm:1.5.0"],
             ["fs-extra", "npm:9.0.1"],
@@ -1255,10 +1255,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["cross-env", [
-        ["npm:7.0.2", {
-          "packageLocation": "./.yarn/cache/cross-env-npm-7.0.2-1e9c9fdbca-624d638db3.zip/node_modules/cross-env/",
+        ["npm:7.0.3", {
+          "packageLocation": "./.yarn/cache/cross-env-npm-7.0.3-96d81820f4-af4fa4dab3.zip/node_modules/cross-env/",
           "packageDependencies": [
-            ["cross-env", "npm:7.0.2"],
+            ["cross-env", "npm:7.0.3"],
             ["cross-spawn", "npm:7.0.3"]
           ],
           "linkType": "HARD",
