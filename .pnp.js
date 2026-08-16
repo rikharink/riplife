@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inquirer", "npm:7.3.3"],
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
-            ["liquidjs", "npm:9.16.1"],
+            ["liquidjs", "npm:10.29.0"],
             ["prettier", "npm:2.1.2"],
             ["rollup", "npm:2.32.1"],
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
@@ -434,7 +434,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inquirer", "npm:7.3.3"],
             ["inquirer-autocomplete-prompt", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:1.2.0"],
             ["inquirer-datepicker-prompt", "npm:0.4.2"],
-            ["liquidjs", "npm:9.16.1"],
+            ["liquidjs", "npm:10.29.0"],
             ["prettier", "npm:2.1.2"],
             ["rollup", "npm:2.32.1"],
             ["rollup-plugin-commonjs", "virtual:451a83b31a34e8839917b76880605d0ddc3d33c3be76399ab5ad3e682dc5398bf5aaf79dabc43cd36a71e00537bc9689331dcecba79ddb0ab398d4509961da8e#npm:10.1.0"],
@@ -1190,6 +1190,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["commander", [
+        ["npm:10.0.1", {
+          "packageLocation": "./.yarn/cache/commander-npm-10.0.1-f17613b72b-3b1def4365.zip/node_modules/commander/",
+          "packageDependencies": [
+            ["commander", "npm:10.0.1"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:2.20.3", {
           "packageLocation": "./.yarn/cache/commander-npm-2.20.3-d8dcbaa39b-b73428e97d.zip/node_modules/commander/",
           "packageDependencies": [
@@ -2726,10 +2733,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["liquidjs", [
-        ["npm:9.16.1", {
-          "packageLocation": "./.yarn/cache/liquidjs-npm-9.16.1-360304fe37-bc62ac8795.zip/node_modules/liquidjs/",
+        ["npm:10.29.0", {
+          "packageLocation": "./.yarn/cache/liquidjs-npm-10.29.0-e1c41a295d-97ec663bc2.zip/node_modules/liquidjs/",
           "packageDependencies": [
-            ["liquidjs", "npm:9.16.1"]
+            ["liquidjs", "npm:10.29.0"],
+            ["commander", "npm:10.0.1"]
           ],
           "linkType": "HARD",
         }]

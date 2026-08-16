@@ -311,7 +311,7 @@ __metadata:
     inquirer: ^7.3.3
     inquirer-autocomplete-prompt: ^1.2.0
     inquirer-datepicker-prompt: ^0.4.2
-    liquidjs: ^9.16.1
+    liquidjs: ^10.0.0
     prettier: ^2.1.2
     rollup: ^2.32.1
     rollup-plugin-commonjs: ^10.1.0
@@ -975,6 +975,13 @@ __metadata:
   dependencies:
     delayed-stream: ~1.0.0
   checksum: 5791ce7944530f0db74a97e77ea28b6fdbf89afcf038e41d6b4195019c4c803cd19ed2905a54959e5b3830d50bd5d6f93c681c6d3aaea8614ad43b48e62e9d65
+  languageName: node
+  linkType: hard
+
+"commander@npm:^10.0.0":
+  version: 10.0.1
+  resolution: "commander@npm:10.0.1"
+  checksum: 3b1def4365a154ae6f6adc3d8fb49cab667a2781ff0dab13ef755e888d458c49644cf1e1d3448aa7e005fdafb9440fa6fdd435cee94c6363ea87805ae8051ffb
   languageName: node
   linkType: hard
 
@@ -2342,13 +2349,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^9.16.1":
-  version: 9.16.1
-  resolution: "liquidjs@npm:9.16.1"
+"liquidjs@npm:^10.0.0":
+  version: 10.29.0
+  resolution: "liquidjs@npm:10.29.0"
+  dependencies:
+    commander: ^10.0.0
   bin:
     liquid: bin/liquid.js
     liquidjs: bin/liquid.js
-  checksum: bc62ac8795c170d24d06d18f655210648034b06c7e9889682426854bcdd064b2517ecb96662fa0e09d8767eca4236e83603218f5262fe269c730c0374fb0b27b
+  checksum: 97ec663bc27b5e1befe24c95f8ef978163642fe22542387bec4a8b279e357dfd11630db1b9d80badac8fca8f2b8a756b71b87972e75cc48c573fb2a7d5f8fa6c
   languageName: node
   linkType: hard
 
